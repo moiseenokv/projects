@@ -49,7 +49,7 @@
 
 >  ### [Bitcointraders](http://livehouse.by/rs/bitcointraders)
 - **2018**
-- **Description:** online crypto exchanger web service with admin panel. **Today this source is not working. Demo urls below are just for acquaintance **
+- **Description:** online crypto exchanger web service with admin panel. **Today this source is not working. Demo urls below are just for acquaintance**
 - **Tools and Envirenment:** 
 		- Debian 7, CLI, Apache, Cron, Memcache, Websocket
 		- PHP, MySQL, HTML/CSS, Bootstrap, AJAX, Javascript, jQuery, JSON, Node.js, Selenium, Phantom.js
