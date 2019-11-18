@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Codejam image-api</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=3.0, minimum-scale=0.85"></head>
+<body>
+  <div class="wrapper">
+    <main>
+        <section class="toolpane">
+            <ul class="tools">
+                <li class="paint" data-tool='bucket'>Fill bucket</li>
+                <li class="choose-color" data-tool='picker'>Choose color</li>
+                <li class="pencil active" data-tool='pencil'>Pencil</li>
+                <li class="transform unactive" data-tool='transform'>Transform</li>
+            </ul>
+
+            <ul class="colors">
+                <li>
+                  <form>
+                      <input type="color">
+                  </form>
+                </li>
+                <li class ="curr"><span></span>Current color</li>
+                <li class ="prev"><span></span>Prev Color</li>
+                <li class="red" data-color='#ff0000'><span></span>red</li>
+                <li class="blue" data-color='#0000ff'><span></span>blue</li>
+            </ul>
+        </section>
+        <section class="canvas">
+          <div class="top-panel">
+            <div class="search">
+              <form class="get-city">
+                <input type="text" name="city">
+                <input type="Submit" value="Load">
+              </form>
+            </div>
+            <button class="bw-button">B/W</button>
+          </div>
+            <canvas id="palette" width="512" height="512"></canvas>
+              <form class="pixel-range">
+                <label>128</label>
+                <input type="range" name="points" min="128" max="512" step="128" value="128">
+              </form>
+        </section>
+    </main>
+</div>
+<script type="text/javascript" src="app.bundle.js"></script></body>
+</html>
